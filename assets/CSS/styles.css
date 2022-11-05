@@ -4,18 +4,14 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
   
 html, body {
-   
-    width: 100%;
     height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
+    overflow-x:hidden !important;
   }
   body {
     margin:0 auto;
     min-height: 100%;
     width:100%;
-    overflow-x:hidden;
+    overflow-x:hidden !important;
    
   }
   * {
@@ -26,10 +22,9 @@ html, body {
     color:white;
     text-decoration: none;
   }
-  a:hover {
-    text-decoration: none;
-    color:white;
-}
+   a:hover {
+            text-decoration: none;
+        }
   h4{
     color:white;
   }
@@ -53,7 +48,6 @@ html, body {
   .download{
   background-color:#50577A;
   color: #D8D9CF;
-  width:100%;
  } .contact{
   background-color:#B2B1B9;
   color:#D8D9CF;
@@ -94,15 +88,16 @@ html, body {
     display: flex;
     color: #fff;
     margin:-15px;
-    
-    background-repeat: no-repeat;
   }
   .banner{display:none}
   .brand{
     padding-top:1rem;
     font-size:22px;
   }
- 
+  body{
+    overflow-x:hidden;
+   
+  }
 
   .steam{
     width:145px;
