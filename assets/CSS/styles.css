@@ -5,26 +5,22 @@
   
 html, body {
     height: 100%;
-    overflow-x:hidden !important;
   }
   body {
     margin:0 auto;
     min-height: 100%;
     width:100%;
-    overflow-x:hidden !important;
+    overflow-x:hidden;
    
   }
   * {
     box-sizing: border-box;
-   
+    border:1px solid red;
   }
   a{
     color:white;
     text-decoration: none;
   }
-   a:hover {
-            text-decoration: none;
-        }
   h4{
     color:white;
   }
@@ -83,8 +79,13 @@ html, body {
       display:none;
       
    }
+   .map{
+    height:100%;
+    width:200px;
+   }
   .bannerMobile {
     height:100%;
+    width:100%;
     display: flex;
     color: #fff;
     margin:-15px;
@@ -148,7 +149,7 @@ html, body {
     left:25px;
     align-items:center;
     top:90px;
-    width:600px;
+    width:auto;
     height:auto;
     color:white;
 
