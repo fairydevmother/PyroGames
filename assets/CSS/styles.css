@@ -48,6 +48,7 @@ html, body {
   .download{
   background-color:#50577A;
   color: #D8D9CF;
+  width:100%;
  } .contact{
   background-color:#B2B1B9;
   color:#D8D9CF;
@@ -88,16 +89,15 @@ html, body {
     display: flex;
     color: #fff;
     margin:-15px;
+    
+    background-repeat: no-repeat;
   }
   .banner{display:none}
   .brand{
     padding-top:1rem;
     font-size:22px;
   }
-  body{
-    overflow-x:hidden;
-   
-  }
+ 
 
   .steam{
     width:145px;
