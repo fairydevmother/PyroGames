@@ -15,7 +15,6 @@ html, body {
   }
   * {
     box-sizing: border-box;
-    border:1px solid red;
   }
   a{
     color:white;
@@ -63,12 +62,15 @@ html, body {
       width:100%;
       height: auto;
   }
+  .bannerMobile { display:none;}
 }
 @media (max-aspect-ratio: 16/9) {
   #videoBG { 
       width:auto;
       height: 100%;
   }
+  
+  .bannerMobile { display:none;}
 }
 .childTwo{
   display:none;
@@ -81,7 +83,7 @@ html, body {
    }
    .map{
     height:100%;
-    width:200px;
+    width:240px;
    }
   .bannerMobile {
     height:100%;
@@ -218,6 +220,7 @@ html, body {
     color:white;
   
   }
+  .bannerMobile { display:none;}
   
   .parent {
    width:200px;
@@ -368,13 +371,13 @@ html, body {
   }
   .banner {
     margin:0 auto;
-    min-height: 100%;
-   
+    width:100%;
     display: flex;
     color: #fff;
   }
   .container-fluid{
     width:100%;
+    height:100%;
     margin:0 auto;
     min-height: 100%;
     display: flex;
