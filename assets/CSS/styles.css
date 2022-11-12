@@ -8,6 +8,7 @@ html, body {
    
     overflow-x:hidden;
   }
+  
   body {
     margin:0 auto;
     min-height: 100%;
@@ -30,7 +31,7 @@ html, body {
     box-sizing: border-box;
   }
   a{
-    color:white;
+    color:white; 
     text-decoration: none;
   }
   h1{
@@ -610,8 +611,8 @@ html, body {
     width: 100%;
     font-size:14px;
     height:3.6rem;
-    background-color:rgba(41,41,41,1);
-    opacity:0.8;
+    background-color:rgba(35,37,40,0.85);
+  
     color:white;
     overflow:hidden;
     border-radius: 0;
@@ -620,7 +621,9 @@ html, body {
     box-sizing: border-box;
     padding:0 0 0 5rem;
   }
-  
+  #logo{
+    opacity:1 !important;
+  }
  
   div#content body.menu-active div#content {
     left: 284px;
